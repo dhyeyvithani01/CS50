@@ -1,7 +1,7 @@
 class Wizard:
     def __init__(self,name):
         if not name:
-            raise ValuError("Missing name")
+            raise ValueError("Missing name")
         self.name = name
     
     def __str__(self):
